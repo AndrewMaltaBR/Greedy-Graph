@@ -4,5 +4,5 @@ from GreedyGoThrough import *
 from GreedyFindVert import *
 
 Adj, Inc, Init, Dest = ReadGraph()
-GreedyGoThrough(Adj, Inc, Init)
-GreedyFindVert(Adj, Inc, Init, Dest)
+GreedyGoThrough(Adj, Init)
+GreedyFindVert(Inc, Init, Dest)
